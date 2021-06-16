@@ -52,7 +52,7 @@ function draw() {
 
   fill("black");
   textSize(18);
-  
+  text("press space to get a second chance",50,50);
 
   detectCollision(stones,mango1);
   detectCollision(stones,mango2);
